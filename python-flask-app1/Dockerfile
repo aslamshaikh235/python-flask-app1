@@ -1,5 +1,5 @@
 FROM python:3.11-alpine
-LABEL mainainer="aslam"
+LABEL maintainer="aslam"
 WORKDIR /app
 COPY . /app
 RUN pip install -r requirements.txt
